@@ -3,7 +3,8 @@ const express = require('express')
 const mongoose = require('mongoose')
 const cors = require('cors')
 const UserModel = require('./User')
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
+const MONGO_URI = mongodb+srv://paulbokingkito:I1GhfPgbQxwHn4d2@cluster0.epgqufa.mongodb.net/;
  
 const app = express()
 app.use(cors())
